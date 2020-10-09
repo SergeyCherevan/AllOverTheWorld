@@ -1,0 +1,190 @@
+/*				main headers and paragraphs				*/
+
+main h1 {
+	font-size: 200%;
+
+	color: #000;
+
+	text-align: center;
+	text-decoration: underline rgb(137, 152, 254);
+
+	font-family: 'Roboto', sans-serif;
+}
+
+main p {
+	font-size: 150%;
+	
+	margin-right: 4vw;
+	margin-left: 4vw;
+}
+
+/*				About-us				*/
+
+.left-img {
+	float: left;
+	margin-right: 4vw;
+	margin-left: 4vw;
+}
+
+.big-ben-with-flag {
+	width: 30vw;
+}
+
+.bold-text {
+	font-weight: 900;
+}
+
+/*				Bloks with pictures				*/
+
+.center-pictures-block {
+	position: relative;
+
+	text-align: center;
+	padding: 0;
+}
+
+.item-picture-block {
+	display: inline-block;
+
+	overflow: hidden;
+
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+.item-picture-block p {
+	color: rgb(1, 21, 168);
+
+	font-size: 100%;
+
+	font-weight: 900;
+}
+
+.children-pictures {
+	width: 20vw;
+}z
+
+#Courses img {
+	width: 40vw;
+}
+
+#Courses .interactive-button:not(:hover) {
+	background: rgba(1, 21, 168, .25);
+}
+
+
+
+
+/*				Gallery				*/
+
+.gallery-container {
+	display: block;
+
+	margin: auto;
+
+	margin-bottom: 4vh;
+
+	width: 60%;
+
+	overflow: hidden;
+
+	position: relative;
+}
+
+/*				teacher-block				*/
+
+.teacher-block{
+	display: none;
+
+	transition: .3s;
+}
+
+.teacher-block.unvisible {
+	display: block;
+
+	opacity: 0;
+}
+
+.teacher-block.visible {
+	display: block;
+
+	opacity: 1;
+}
+
+/*				Columns				*/
+
+.gallery-container .left-block {
+	float: left;
+
+	text-align: center;
+
+	width: 50%;
+
+	display: block;
+	justify-content: center;
+
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.gallery-container .right-block {
+	float: right;
+
+	text-align: center;
+
+	width: 50%;
+
+	display: block;
+	justify-content: center;
+}
+
+.gallery-container .right-block p {
+	text-align: start;
+}
+
+/*				Arrows				*/
+
+.gallery-arrow {
+	position: absolute;
+
+	width: 7.5%;
+
+	opacity: .5;
+
+	transition: .6s;
+}
+
+.gallery-arrow:hover {
+	opacity: 1;
+}
+
+.gallery-arrow:active {
+	opacity: .7;
+}
+
+#arrow-left {
+	top: 50%;
+	left: 10%;
+	transform: translate(-50%, -50%);
+}
+
+#arrow-right {
+	top: 50%;
+	right: 10%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+/*------------------------------------------*/
+
+.youtube{
+	width: 60vw;
+	height: 75vh;
+
+	padding-bottom: 30px;
+}
+

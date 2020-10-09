@@ -1,1 +1,82 @@
+/*------------------------------------------*/
 
+footer {
+	background: rgb(137, 152, 254);
+	color: #fff;
+
+	overflow: hidden; /*заставляет учитывать float элементы*/
+}
+
+.google-map {
+	width: 50%;
+	height: 80vh;
+
+	frameborder: 0px;
+	border: 0px;
+	aria-hidden: false;
+	tabindex: 0;
+}
+
+footer .left-block {
+	float: left;
+
+	text-align: center;
+
+	width: 45%;
+	padding: 2.5%;
+
+	display: block;
+	justify-content: center;
+}
+
+footer .right-block {
+	float: right;
+
+	text-align: center;
+
+	width: 45%;
+	padding: 2.5%;
+
+	display: block;
+	justify-content: center;
+}
+
+#I-want-to-learn-foot {
+	display: flex;
+	justify-content: center;
+
+	margin: 0;
+
+	padding: 2% 4%;
+
+	font-size: 175%;
+}
+
+footer h1 {
+	display: block;
+
+	font-size: 200%;
+
+	color: #fff;
+
+	text-align: center;
+	text-decoration: underline #fff;
+
+	font-family: 'Roboto', sans-serif;
+
+	margin-bottom: 0;
+}
+
+footer p {
+	display: block;
+
+	font-size: 125%;
+
+	color: #fff;
+
+	text-align: start;
+
+	font-family: 'Roboto', sans-serif;
+
+	margin-bottom: 2.7vh;
+}

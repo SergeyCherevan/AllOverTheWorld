@@ -1,0 +1,56 @@
+/*				#Start-page				*/
+
+#Start-page {
+	position: relative;
+
+	height: calc(50vw);
+	background: url(../../images/background.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+#I-want-to-learn-SP {
+	position: absolute;
+	display: flex;
+
+	top: calc(3/5 * 50vw);
+	left: calc(1/3 * 100vw);
+	transform: translate(-50%, -50%);
+}
+
+#I-want-to-learn-SP:not(:hover) {
+	background: rgba(1, 21, 168, .1);
+}
+
+.start-contact-div {
+	display: flex;
+	
+	position: absolute;
+
+	bottom: calc(0.05 * 50vw);
+	right: calc(0.025 * 100vw);
+
+	color: #fff;
+	background-color: rgba(255, 255, 255, .5);
+}
+
+.start-contacts {
+	display: flex;
+	list-style: none;
+}
+
+.start-contacts li {
+	color: rgb(1, 21, 168);
+	text-decoration: none;
+	padding: 0 30px 0 0;
+	font-size: 100%;
+}
+
+.start-contacts li a {
+	color: rgb(1, 21, 168);
+	text-decoration: underline;
+	font-size: 100%;
+}
+
