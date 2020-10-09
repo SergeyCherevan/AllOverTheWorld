@@ -15,6 +15,7 @@
 @import 'big-display/footer.css' (min-width: 18cm);
 
 @import 'big-display/form.css' (min-width: 18cm);
+@import 'big-display/game.css' ;
 
 /*				mobile				*/
 
@@ -29,5 +30,6 @@
 @import 'mobile/footer.css' (max-width: 18cm);
 
 @import 'mobile/form.css' (max-width: 18cm);
+
 
 
