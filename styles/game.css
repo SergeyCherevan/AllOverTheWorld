@@ -149,6 +149,8 @@ p.speech:after {
     right: 28vw;
 
     font-size: 50%;
+
+    color: black;
 }
 #level4 {
     background: url("../images/Красная кнопка.png");
