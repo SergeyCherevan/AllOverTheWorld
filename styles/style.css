@@ -1,1 +1,33 @@
+@import 'normalize.css';
+
+@import url(http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic);
+
+/*				bid-display				*/
+
+@import 'big-display/general-styles.css' (min-width: 18cm);
+
+@import 'big-display/header.css' (min-width: 18cm);
+
+@import 'big-display/start-page.css' (min-width: 18cm);
+
+@import 'big-display/main-block.css' (min-width: 18cm);
+
+@import 'big-display/footer.css' (min-width: 18cm);
+
+@import 'big-display/form.css' (min-width: 18cm);
+
+/*				mobile				*/
+
+@import 'mobile/general-styles.css' (max-width: 18cm);
+
+@import 'mobile/header.css' (max-width: 18cm);
+
+@import 'mobile/start-page.css' (max-width: 18cm);
+
+@import 'mobile/main-block.css' (max-width: 18cm);
+
+@import 'mobile/footer.css' (max-width: 18cm);
+
+@import 'mobile/form.css' (max-width: 18cm);
+
 

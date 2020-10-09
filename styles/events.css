@@ -1,0 +1,89 @@
+/*				header				*/
+
+header {
+	position: relative;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	height: auto;
+	width: 100vw;
+	padding: 4vh 10vw;
+
+	color: #000;
+
+	background: rgb(255, 255, 255, .95);
+
+	z-index: 1;
+}
+
+header .link {
+	color: #000;
+}
+
+/*				#head-activator				*/
+
+#head-activator {
+	position: fixed;
+	left: 0;
+	top: 0;
+
+	width: 100vw;
+	height: 4vh;
+	min-height: 10px;
+
+	opacity: 0;
+
+	z-index: 1;
+}
+
+/*				header when .under-start-page				*/
+
+header.under-start-page {
+	display: none;
+
+	background: rgb(255, 255, 255, .95);
+}
+
+header.under-start-page.activated {
+	display: inline-flex;
+}
+
+header.under-start-page:hover {
+	display: inline-flex;
+}
+
+header.under-start-page .link {
+	color: #000;
+}
+
+header.under-start-page .link:hover {
+	color: rgb(137, 152, 254);
+}
+
+/*				logo				*/
+
+#logotype {
+	margin-left: 10vw;
+
+	text-decoration: none;
+}
+
+/*				manu and nav				*/
+
+.menu {
+	display: inline-flex;
+}
+
+.nav {
+	display: inline-flex;
+	list-style: none;
+
+	margin-right: 1vw;
+}
+
+.nav li a {
+	color: #000;
+	text-decoration: none;
+	margin: 0 2.5vw 0 0;
+	font-size: 110%;
+}
