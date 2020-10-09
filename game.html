@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>All Over The World</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/events.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+	<script src="scripts/game.js"></script>
+
+</head>
+
+<body>
+	
+	<main>
+		<header>
+				<a class="logo" id="logotype" href="index.html#Start-page">All Over The World</a>
+
+				<div class="menu">
+					<ul class="nav">
+						<li><a class="link" href="index.html#About-us">О нас</a></li>
+						<li><a class="link" href="index.html#Courses">Курсы</a></li>
+						<li><a class="link" href="index.html#Teachers">Преподаватели</a></li>
+						<li><a class="link" href="game.html#Game">Игра</a></li>
+						<li><a class="link" href="#">Отзывы</a></li>
+					</ul>
+				</div>
+		</header>
+
+		<div id="head-activator"></div>
+
+		<div id="Game">
+			<div>
+				<h1>Игра</h1>
+				<div class="container">
+
+					<div id="map" class="map">
+						<a href="level1.html#Game"><div class="level circle" id="level0">
+							Обучение<br><br>
+						</div></a>
+
+						<a href="level1.html#Game"><div class="level circle" id="level1">
+							Уровень 1<br><br>
+						</div></a>
+
+						<a href="level1.html#Game"><div class="level circle" id="level2">
+							Уровень 2<br><br>
+						</div></a>
+
+						<a href="level1.html#Game"><div class="level circle" id="level3">
+							Уровень 3<br><br>
+						</div></a>
+
+						<a href="level1.html#Game"><div class="level circle" id="level4">
+							Cупер-уровень<br><br>
+						</div></a>
+					</div>
+
+
+
+
+
+
+
+					<div class="tasking_buble"><p class="speech">
+						Привет!
+					</p></div>
+					<div class="owl">
+						<div class="elemnt">
+							<img src="images/Owl.png" class="Owl_img">
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+
+
+
+	</main>
+
+	<footer id="footer">
+
+		<iframe class="left-block google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2562.1365045720527!2d36.200258115248886!3d50.046274124286526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a6a9f6e9b8bd%3A0x9895ffae6a443e1a!2z0KbQtdC70LjQvdC-0LPRgNCw0LTRgdC60LDRjyDRg9C7LiwgMzYsINCl0LDRgNGM0LrQvtCyLCDQpdCw0YDRjNC60L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA2MTAwMA!5e0!3m2!1sru!2sua!4v1587189595967!5m2!1sru!2sua"></iframe>
+
+		<div class="right-block">
+
+			<div id="I-want-to-learn-foot" class="interactive-button I-want">Хочу заниматься!</div>
+
+			<h1>Контакты</h1>
+
+			<p>Адрес:
+			<br>г. Харьков, ул. Цилиноградская, д.36</p>
+
+			<p>Номер:
+			<br>+38 099 098 1001</p>
+
+			<p>Email:
+			<br>email@allovertheworld.com</p>
+
+		</div>
+
+	</footer>
+
+	<form class="form" id="Form-I-want-to-learn" name="Form-I-want-to-learn" action="php/form-processing.php" method="POST">
+		<div class="right-block">
+			<p>Ваше ФИО:</p>
+			<input type="text" id="input-name" name="input-name" required>
+
+			<p>Город:</p>
+			<input type="text" id="input-city" name="input-city" required>
+
+			<p>Номер телефона:</p>
+			<input type="text" id="input-tel" name="input-tel-email" required>
+
+			<p>Email:</p>
+			<input type="email" id="input-email" name="input-tel-email" required>
+			
+			<input id="submit" type="submit" class="interactive-button" title="Записаться" >
+		</div>
+		
+		<p id="close-Form-I-want">×</p>
+		<!---->
+
+		<a class="logo" href="#Start-page">All Over The World</a>
+
+		<img src="images/boy-and-girl.png" class="boy">
+	</form>
+
+	<script type="text/javascript" async src="scripts/script.js"></script>
+
+	<script type="text/javascript" async src="scripts/events.js"></script>
+
+</body>
+</html>
