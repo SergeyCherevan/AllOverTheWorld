@@ -1,0 +1,67 @@
+/*				header				*/
+
+header {
+	padding: 4vh 2vw;
+	
+	z-index: 1;
+}
+
+/*				header when .under-start-page				*/
+
+header.under-start-page {
+	display: none;
+
+	background: rgb(255, 255, 255, .95);
+}
+
+/*				#head-activator				*/
+
+#head-activator {
+	position: fixed;
+	left: 0;
+	top: 0;
+
+	width: 100vw;
+	height: 4vh;
+	min-height: 10px;
+
+	opacity: 0;
+
+	z-index: 1;
+}
+
+/*				logo				*/
+
+#logotype {
+	text-decoration: none;
+}
+
+/*				manu and nav				*/
+
+.nav {
+	background: rgba(255, 255, 255, .75);
+}
+
+ul.nav {
+	list-style: none;
+
+	margin: 0;
+	margin-top: 2vh;
+	padding: 0;
+}
+
+.nav li a {
+	list-style: none;
+	
+	color: rgb(1, 21, 168);
+
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	
+	text-decoration: none;
+
+	font-size: 500%;
+}
+
+

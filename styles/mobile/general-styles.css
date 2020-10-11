@@ -1,0 +1,69 @@
+/*				body				*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+
+	font-size: calc(15/1024 * 100vw); /*20px 1.45vw*/
+}
+
+/*				logotype styles				*/
+
+.logo {
+	font-size: 700%;
+	font-family: 'Quicksand', sans-serif;
+	color: rgb(1, 21, 168);
+
+	transition: .6s;
+}
+
+.logo:hover {
+	cursor: pointer;
+
+	color: rgba(1, 20, 168, .6);
+}
+
+/*				links				*/
+
+.link {
+	color: #fff;
+	transition: .3s;
+
+	text-align: center;
+
+	cursor: pointer;
+}
+
+.link:hover {
+	color: rgba(137, 152, 254);
+}
+
+
+/*				interactive buttons				*/
+
+
+.interactive-button {
+
+	background: rgba(255, 255, 255, .1);
+	color: rgb(1, 21, 168);
+
+	border: 2px solid rgb(1, 21, 168);
+	border-radius: 5px;
+
+	text-decoration: none;
+	font-size: 100%;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	padding: 2%;
+	transition: .4s;
+
+	cursor: pointer;
+
+}
+
+.interactive-button:hover {
+	background: rgba(1, 21, 168);
+	color: #fff;
+}

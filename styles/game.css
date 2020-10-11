@@ -1,0 +1,214 @@
+.container
+{
+   position: relative;
+    height: 90vh;
+
+}
+.owl{
+    position: absolute;
+    right: 10vh ;
+    bottom: 5vh;
+}
+
+.Owl_img{
+    width: 35vh;
+    height: 35vh;
+}
+p.speech {
+    position: relative;
+    width: 30vw;
+    height: 40vh;
+    text-align: center;
+    /*line-height: 100px;*/
+    background-color: #ffffff;
+    border: 8px solid rgb(0,120,200);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    padding: 10px;
+    -webkit-box-shadow: 2px 2px 4px rgb(0, 60, 100);
+    -moz-box-shadow: 2px 2px 4px rgb(0, 60, 100);
+    box-shadow: 2px 2px 4px rgb(0, 60, 100);
+    font-size: 100%;
+    font-style: italic;
+}
+p.speech:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 5vw;
+    top: calc(40vh /*height*/ + 2*10px /*padding*/);
+    border: 25px solid;
+    border-color: rgb(0,120,200) transparent transparent rgb(0,120,200);
+}
+p.speech:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 5.7vw;
+    top: calc(40vh /*height*/ + 2*10px /*padding*/);
+    border: 15px solid;
+    border-color: #fff transparent transparent #fff;
+}
+.tasking_buble{
+    position: absolute;
+    right: 1vh;
+    bottom: 42vh;
+}
+.map
+{
+    position: absolute;
+    display: flex;
+    left: 2vw;
+    top: 0;
+    /*border: 5px solid black;*/
+    height: 80vh;
+    width: 55vw;
+
+    background: url(../images/Полянка.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.circle {
+    /*background: url("../images/Синяя кнопка.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;*/
+}
+.level{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#level0 {
+    background: url("../images/Синяя кнопка.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    width: 25.6vh;
+    height: 14.1vh;
+
+    position: absolute;
+    bottom: 5vh;
+    right: 5vw;
+}
+#level1 {
+    background: url("../images/Зелёная кнопка.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    width: 19.2vh;
+    height: 10.6vh;
+
+    position: absolute;
+    bottom: 12vh;
+    right: 19vw;
+
+    font-size: 80%;
+}
+#level2 {
+    background: url("../images/Жёлтая кнопка.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    width: 17.3vh;
+    height: 9.5vh;
+
+    position: absolute;
+    bottom: 25vh;
+    right: 24vw;
+
+    font-size: 72%;
+
+    color: black;
+}
+#level3 {
+    background: url("../images/Оранжевая кнопка.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    width: 13.7vh;
+    height: 7.6vh;
+
+    position: absolute;
+    top: 29vh;
+    right: 28vw;
+
+    font-size: 50%;
+
+    color: black;
+}
+#level4 {
+    background: url("../images/Красная кнопка.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    width: 13.7vh;
+    height: 7.6vh;
+
+    position: absolute;
+    top: 25vh;
+    left: 1vw;
+
+    font-size: 50%;
+}
+.text{
+    position: absolute;
+    font-size: 5vw;
+    align-self: center;
+
+}
+.game_image{
+    width: 20vh;
+    height: 20vh;
+}
+#img_1{
+
+   position: absolute;
+    bottom: 10vh;
+    left: 20vw;
+
+}
+#img_2{
+    position: absolute;
+    bottom: 30vh;
+    left: 30vw;
+}
+#img_3{
+
+    position: absolute;
+    bottom: 50vh;
+    left: 40vw;
+
+}
+
+a {
+    text-decoration: none;
+}
+.field
+{
+    position: absolute;
+    display: flex;
+    left: 2vw;
+    top: 0;
+    /*border: 5px solid black;*/
+    height: 80vh;
+    width: 55vw;
+}
+

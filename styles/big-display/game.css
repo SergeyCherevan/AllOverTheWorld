@@ -1,0 +1,108 @@
+.container
+{
+   position: relative;
+    height: 90vh;
+
+}
+.owl{
+    position: absolute;
+    right: 10vh ;
+    bottom: 5vh;
+}
+
+.Owl_img{
+    width: 35vh;
+    height: 35vh;
+}
+p.speech {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    line-height: 100px;
+    background-color: #fff;
+    border: 8px solid rgb(0,120,200);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px 4px rgb(0,120,200);
+    -moz-box-shadow: 2px 2px 4px rgb(0,120,200);
+    box-shadow: 2px 2px 4px rgb(0,120,200);
+    font-size: 3vh;
+}
+p.speech:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 30px;
+    top: 200px;
+    border: 25px solid;
+    border-color: rgb(0,120,200) transparent transparent rgb(0,120,200);
+}
+p.speech:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 38px;
+    top: 200px;
+    border: 15px solid;
+    border-color: #fff transparent transparent #fff;
+}
+.tasking_buble{
+    position: absolute;
+    right: 1vh;
+    bottom: 42vh;
+}
+.map
+{
+    position: absolute;
+    display: flex;
+    left: 2vw;
+    top:0;
+  border:5px solid black;
+    height: 80vh;
+    width: 55vw;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+    border:1px solid black;
+}
+.level{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    position: absolute;
+    font-size: 5vw;
+    align-self: center;
+
+}
+.game_image{
+    width: 20vh;
+    height: 20vh;
+}
+#img_1{
+
+   position: absolute;
+    bottom: 10vh;
+    left: 20vw;
+
+}
+#img_2{
+    position: absolute;
+    bottom: 30vh;
+    left: 30vw;
+}
+#img_3{
+
+    position: absolute;
+    bottom: 50vh;
+    left: 40vw;
+
+}

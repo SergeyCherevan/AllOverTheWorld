@@ -1,0 +1,92 @@
+
+
+/*------------------------------------------*/
+
+.form {
+	display: none;
+
+	position: fixed;
+
+	overflow: hidden;
+
+	left: 50%;
+	top: 50%;
+
+	transform: translate(-50%, -50%);
+
+	padding: 5vh 5vw;
+
+	background: rgb(255, 255, 255, .975);
+
+	z-index: 2;
+
+	transition: .5s;
+}
+
+.form.unvisible {
+	display: block;
+
+	opacity: 0;
+}
+
+.form.visible {
+	display: block;
+
+	opacity: 1;
+}
+
+#Form-I-want-to-learn {
+	width: 80vw;
+	height: 80vh;
+}
+
+.form .logo {
+	position: relative;
+
+	transition: .5s;
+}
+
+#close-Form-I-want {
+
+	position: absolute;
+
+	right: 4vw;
+
+	top: 0;
+
+	cursor: pointer;
+
+	font-size: 200%;
+
+	color: #000;
+}
+
+#close-Form-I-want:hover {
+	color: rgb(137, 152, 254);
+}
+
+#close-Form-I-want:active {
+	opacity: .8;
+}
+
+.form .right-block {
+	position: absolute;
+
+	left: 50%;
+
+	width: 50%;
+	height: 100%;
+
+	padding-top: 10vh;
+	padding-left: 2vw;
+}
+
+.form .boy {
+	position: absolute;
+
+	bottom: 5%;
+	left: 5%;
+
+	height: 65vh;
+	width: 40vw;
+}
