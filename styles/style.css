@@ -2,8 +2,6 @@
 
 @import url(http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic);
 
-@import 'game.css';
-
 /*				bid-display				*/
 
 @import 'big-display/general-styles.css' (min-width: 18cm);
@@ -31,6 +29,5 @@
 @import 'mobile/footer.css' (max-width: 18cm);
 
 @import 'mobile/form.css' (max-width: 18cm);
-
 
 

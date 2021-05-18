@@ -169,9 +169,9 @@ let GlobalScrollEvent;
 	let Form = document.getElementById('Form-I-want-to-learn');
 	let Close = document.getElementById('close-Form-I-want');
 
-	/*for (let i = 0; i < I_want.length; i++) {
+	for (let i = 0; i < I_want.length; i++) {
 		I_want[i].addEventListener('click', Show_Form);
-	}*/
+	}
 
 	Close.addEventListener('click', Hide_Form);
 

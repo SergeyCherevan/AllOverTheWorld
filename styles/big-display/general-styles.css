@@ -23,11 +23,7 @@ body {
 }
 
 .logo:hover {
-	cursor: pointer;
-
-	background: linear-gradient(45deg, rgba(1, 21, 168, .75) 0%, rgba(1, 21, 168, .75) 70%, #fff 95%, #fff 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	letter-spacing: -1px;
 }
 
 /*				links				*/
@@ -42,7 +38,7 @@ body {
 }
 
 .link:hover {
-	color: rgb(137, 152, 254);
+	letter-spacing: 0.5px;
 }
 
 

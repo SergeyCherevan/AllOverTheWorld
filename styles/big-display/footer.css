@@ -1,14 +1,12 @@
-/*------------------------------------------*/
-
 footer {
-	background: rgb(137, 152, 254);
+	background: #4eb7ec;
 	color: #fff;
 
 	overflow: hidden; /*заставляет учитывать float элементы*/
 }
 
 .google-map {
-	width: 50%;
+	width: 100%;
 	height: 80vh;
 
 	frameborder: 0px;
@@ -39,6 +37,14 @@ footer .right-block {
 
 	display: block;
 	justify-content: center;
+}
+
+footer .interactive-button {
+	border: 3px solid rgb(1, 21, 168);
+}
+
+footer .interactive-button:not(:hover) {
+	background: white;
 }
 
 #I-want-to-learn-foot {

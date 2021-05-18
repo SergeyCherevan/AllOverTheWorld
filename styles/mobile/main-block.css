@@ -6,7 +6,7 @@ main h1 {
 	color: #000;
 
 	text-align: center;
-	text-decoration: underline rgb(137, 152, 254);
+	text-decoration: underline #4eb7ec;
 
 	font-family: 'Roboto', sans-serif;
 }
@@ -63,10 +63,12 @@ main p {
 	width: 60vw;
 
 	height: 0;
+	
+	transition: .6s;
 }
 
-.children-pictures.visible {
-	height: auto;
+.item-picture-block:hover .children-pictures  {
+	height: 60vw;
 }
 
 #Courses img {
@@ -78,10 +80,12 @@ main p {
 
 	margin-top: 2vh;
 	margin-bottom: 2vh;
+
+	border: 3px solid rgb(1, 21, 168);
 }
 
 #Courses .interactive-button:not(:hover) {
-	background: rgba(1, 21, 168, .25);
+	background: white;
 }
 
 

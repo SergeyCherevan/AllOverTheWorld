@@ -21,7 +21,9 @@ body {
 .logo:hover {
 	cursor: pointer;
 
-	color: rgba(1, 20, 168, .6);
+	color: rgb(0, 12, 100);
+
+	letter-spacing: -1px;
 }
 
 /*				links				*/
@@ -36,7 +38,7 @@ body {
 }
 
 .link:hover {
-	color: rgba(137, 152, 254);
+	letter-spacing: 2px;
 }
 
 
@@ -64,6 +66,6 @@ body {
 }
 
 .interactive-button:hover {
-	background: rgba(1, 21, 168);
+	background: rgb(1, 21, 168);
 	color: #fff;
 }
